@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>
+REGISTRATION FORM
+</title>
+<body bgcolor="lightblue">
+  <h1>REGISTRATION FORM</h1>
+  <form action="submit.html">
+   Name:<input type="text" placeholder="Your Name" required/><br /><br />
+   Date Of Birth: <input type="date"/><br /><br />
+   Email:<input type="email" placeholder="Your email address" required/><br /><br /> 
+   Password:<input type="password" placeholder="Your Password" pattern=".{6}" title="password must contain atleast 6 letters" required /><br /><br />
+   Gender:
+   Male:<input type="radio" value="male" name="gender"/>
+   Female:<input type="radio" value="female" name="gender"/>
+   Others:<input type="radio" value="others" name="gender"/><br /><br />
+   Address:
+   <textarea rows="6" placeholder="Address"></textarea>
+   <br /><br />
+   Languages Known:
+    Malayalam:<input type="checkbox" value="ma" />
+   English:<input type="checkbox" value="en" />
+   Hindi:<input type="checkbox" value="hi" /><br /><br />
+   Programme:
+      <input type=text list="programmes">
+     <datalist id="programmes">
+    <option value= ComputerScience />
+     <option value= Physics />
+     <option value= Chemistry />
+     <option value= Mathematics />
+     <option value= Statistics />
+</datalist>
+    <br /><br />
+   University:
+   <select mutiple required>
+    <option>Kannur University</option>
+    <option>University of Calicut</option>
+    <option>MG University</option>
+    <option>Kerala University</option>
+    </select>
+    <br /><br />
+ <input type="submit" value="submit"/>
+
+
+    
+  </form>
+</body>
+</head>
+</html>
